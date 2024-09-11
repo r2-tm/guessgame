@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+.container {
+    text-align: center;
+    background-color: tan;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.correct {
+    color: green;
+}
+.incorrect {
+    color: red;
+}
